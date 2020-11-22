@@ -2,10 +2,12 @@ import styled from "styled-components";
 
 export const GlobalChat = styled.div`
   display: grid;
-  grid-template-rows: 7% 100px 200px;
+  grid-template-columns: 1fr;
+  grid-template-rows: 9% 83% 8%;
   background: #edf0f5;
   border-radius: 20px;
   margin-left: 20px;
+  height: 100%;
 `;
 
 export const ContainerMessage = styled.div`

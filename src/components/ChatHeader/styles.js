@@ -5,8 +5,6 @@ export const GlobalHeader = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 2px solid gray;
-  height: 60px;
 `;
 
 export const TitleChat = styled.h2`

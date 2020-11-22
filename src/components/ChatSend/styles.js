@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const GlobalSend = styled.div`
-  background: #ff4;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -9,6 +8,8 @@ export const GlobalSend = styled.div`
   width: auto;
   border-radius: 20px;
   background: white;
+  height: 80%;
+  margin: 0 15px;
 `;
 
 export const TextSend = styled.p`
@@ -16,6 +17,8 @@ export const TextSend = styled.p`
   font-family: "Montserrat";
   font-size: 15px;
   margin-left: 20px;
+  margin-right: 20px;
+  width: 100%;
 `;
 
 export const ButtonSend = styled.button`
@@ -26,6 +29,14 @@ export const ButtonSend = styled.button`
   padding: 10px 10px;
   margin-right: 10px;
   cursor: pointer;
+  &:focus {
+    outline: none;
+  }
+`;
+export const InputSend = styled.input`
+  border: none;
+  font-family: "Montserrat";
+  width: 100%;
   &:focus {
     outline: none;
   }
