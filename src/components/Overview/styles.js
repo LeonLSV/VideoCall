@@ -7,13 +7,13 @@ export const GlobalOverview = styled.div`
   margin: 0;
   padding: 0;
   border-bottom: 1px solid gray;
-  height: 60px;
+  height: 50px;
   position: relative;
 `;
 export const TitleOverview = styled.h1`
   font-family: "Montserrat";
   font-weight: normal;
-  font-size: 25px;
+  font-size: 20px;
 `;
 
 export const ButtonOverview = styled.button`
@@ -34,7 +34,7 @@ export const ButtonOverview = styled.button`
 
 export const Team = styled.h2`
   margin: 0;
-  font-size: 17px;
+  font-size: 13px;
   padding-left: 5px;
   font-family: "Montserrat";
   font-weight: medium;

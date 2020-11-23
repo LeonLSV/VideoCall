@@ -4,13 +4,14 @@ export const GlobalHeader = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
-  height: 50px;
+  height: 40px;
   margin: 10px 0;
   position: relative;
 `;
 
 export const TextHeader = styled.p`
   font-family: "Montserrat";
+  font-size: 13px;
 `;
 export const ButtonHeader = styled.button`
   background: ${(props) => props.background};
@@ -18,7 +19,7 @@ export const ButtonHeader = styled.button`
   font-family: "Montserrat";
   font-weight: bold;
   border-radius: 10px;
-  padding: 12px 15px;
+  padding: 7px 10px;
   color: ${(props) => props.color};
   margin: 0 10px;
   cursor: pointer;

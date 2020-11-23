@@ -8,7 +8,7 @@ export const Overview = () => {
       <GlobalOverview>
         <LeftSquareOutlined
           style={{
-            fontSize: "30px",
+            fontSize: "20px",
             color: "#435091",
             margin: "0px 20px",
             cursor: "pointer",

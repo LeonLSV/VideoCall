@@ -23,7 +23,7 @@ export const HeaderTwo = () => {
         <DivRight>
           <PlusOutlined
             style={{
-              fontSize: "20px",
+              fontSize: "12px",
               background: "#00a389",
               color: "#fff",
               borderRadius: "10px",

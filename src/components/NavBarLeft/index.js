@@ -15,25 +15,25 @@ export const NavLeft = () => {
   return (
     <>
       <NavGlobal>
-        <GitlabFilled style={{ fontSize: "50px" }} spin={true} />
+        <GitlabFilled style={{ fontSize: "40px" }} spin={true} />
         <Nav>
           <Item>
-            <ClockCircleOutlined style={{ fontSize: "30px", color: "gray" }} />
+            <ClockCircleOutlined style={{ fontSize: "20px", color: "gray" }} />
           </Item>
           <Item>
-            <CheckSquareOutlined style={{ fontSize: "30px", color: "gray" }} />
+            <CheckSquareOutlined style={{ fontSize: "20px", color: "gray" }} />
           </Item>
           <Item>
-            <EyeOutlined style={{ fontSize: "30px", color: "gray" }} />
+            <EyeOutlined style={{ fontSize: "20px", color: "gray" }} />
           </Item>
           <Item>
-            <UsergroupAddOutlined style={{ fontSize: "30px", color: "gray" }} />
+            <UsergroupAddOutlined style={{ fontSize: "20px", color: "gray" }} />
           </Item>
           <Item>
-            <LineChartOutlined style={{ fontSize: "30px", color: "gray" }} />
+            <LineChartOutlined style={{ fontSize: "20px", color: "gray" }} />
           </Item>
           <Item>
-            <VideoCameraOutlined style={{ fontSize: "30px", color: "gray" }} />
+            <VideoCameraOutlined style={{ fontSize: "20px", color: "gray" }} />
           </Item>
 
           <Image src={perfil} />

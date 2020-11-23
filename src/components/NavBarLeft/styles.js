@@ -25,5 +25,5 @@ export const Image = styled.img`
   width: 50px;
   border: 1px solid #fff;
   border-radius: 50%;
-  margin-top: 70px;
+  margin-top: 100px;
 `;
