@@ -6,6 +6,7 @@ export const GlobalHeader = styled.div`
   align-items: center;
   height: 40px;
   margin: 10px 0;
+  width: 100%;
   position: relative;
 `;
 
@@ -27,6 +28,5 @@ export const ButtonHeader = styled.button`
 export const DivRight = styled.div`
   display: flex;
   align-items: center;
-  justify-content: flex-end;
   color: #00a389;
 `;

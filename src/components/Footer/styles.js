@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const GlobalFooter = styled.footer`
   display: flex;
   flex-direction: row;
-  height: 60px;
+  height: 40px;
   align-items: center;
   margin: 10px 0;
 `;

@@ -8,7 +8,7 @@ export const GlobalContainer = styled.div`
 
 export const ImageVideo = styled.img`
   display: flex;
-  width: 100%;
+  width: 98%;
   border-radius: 30px;
   margin: 0 auto;
 `;

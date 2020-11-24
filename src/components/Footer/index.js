@@ -14,10 +14,10 @@ export const Footer = () => {
           }}
         />
         <div>
-          <TextFooter fontsize={"15px"} weight={"normal"} padding={"5px 0"}>
+          <TextFooter fontsize={"12px"} weight={"normal"} padding={"5px 0"}>
             Now
           </TextFooter>
-          <TextFooter fontsize={"20px"} weight={"bold"} padding={"3px 0"}>
+          <TextFooter fontsize={"15px"} weight={"bold"} padding={"2px 0"}>
             Thanks for sending all those completed transcripts throug - we've
             been really happy...
           </TextFooter>
